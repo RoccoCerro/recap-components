@@ -51,7 +51,8 @@ export default{
   <!-- <p>{{ JSON.stringify(cards) }}</p> -->
   <div class="container">
     <ul class="row">
-      <AppCard v-for="card in cards" :name="card.name" :image="card.image"/>
+      <!-- <AppCard v-for="card in cards" :name="card.name" :image="card.image"/> -->
+      <AppCard v-for="card in cards" :card="{name: card.name, image: card.image}"/>
     </ul>
   </div>
 </template>

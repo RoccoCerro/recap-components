@@ -4,28 +4,28 @@
   margin: 0;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 img {
   width: 100%;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 5px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px 20px;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .col {
-    width: calc(100% / 3 - 15px);
-}
-
-
-ul,li {
-    list-style: none;
+  width: calc(100% / 3 - 15px);
 }
 
 h1 {
